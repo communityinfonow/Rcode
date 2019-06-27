@@ -3,19 +3,9 @@ title: "trendline automation"
 output: html_document
 ---
 
-library(foreign)
-library(extrafont)
-library(dplyr)
-library(magick)
-library(ggplot2)
-library(plotly)
-library(RColorBrewer)
-library(tidyverse)
-library(scales)
-library(grid)
-library(gtable)
-library(ggthemes)
-library(ggrepel)
+library(foreign); library(extrafont); library(dplyr);library(ggplot2);
+library(RColorBrewer);library(tidyverse);library(scales);library(grid)
+library(gtable);library(ggthemes);library(ggrepel)
 
 
 #Define where you will save your plots
